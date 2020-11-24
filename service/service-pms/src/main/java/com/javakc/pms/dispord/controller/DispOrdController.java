@@ -22,7 +22,6 @@ import java.util.Map;
 @Api(tags = "调度指令库管理")
 @RestController
 @RequestMapping("/pms/dispord")
-@CrossOrigin
 public class DispOrdController {
 
     @Autowired
